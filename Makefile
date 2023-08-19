@@ -12,8 +12,6 @@ LIBS = -lpthread
 
 CFLAGS += -Wall -std=c99 -s -O2
 
-LDFLAGS += -static
-
 INSTALL = ./install.sh
 
 -include config.mak
